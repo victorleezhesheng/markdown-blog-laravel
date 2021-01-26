@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Article;
-use Illuminate\Http\Request;
+use GitDown\Facades\GitDown;
 
 // import GitDown dependency
-use GitDown;
+use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 
 class ArticleController extends Controller
 {
